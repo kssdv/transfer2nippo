@@ -5,7 +5,6 @@ def read_excel(path):
     syokan = []
 
     # Excelファイルを読み込む
-    # workbook = load_workbook('./data/業務日報_202509_キム・サンシン.xlsx')
     workbook = load_workbook(path)
 
     # シート名をリストで取得
@@ -36,7 +35,4 @@ def read_excel(path):
     return [gyomu, syokan]
 
 if __name__ == "__main__":
-    # read_excel('./data/業務日報_202509_キム・サンシン.xlsx')
-    read_excel("C:\\Users\\3031233\\Downloads\\業務日報_202509_キム・サンシン.xlsx")
-    print("C:\\Users\\3031233\\Downloads\\業務日報_202509_キム・サンシン.xlsx")
-
+    pass
