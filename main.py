@@ -6,7 +6,7 @@ from pathlib import Path
 load_dotenv()
 
 YOUR_NAME = os.getenv("YOUR_NAME")
-file_name = f"業務日報_202509_{YOUR_NAME}.xlsx"
+file_name = f"業務日報_202510_{YOUR_NAME}.xlsx"
 # file_name = "FILE_NAME.xlsx"
 
 # Downloadsフォルダー
@@ -48,7 +48,7 @@ with open(txt_path, "w", encoding="utf-8") as file:
     file.write("\n")
     
     # 月間目標
-    file.write(f"【九月までの目標】\n")
-    file.write("・PaizaのAランク達成\n")
-    file.write("・個人プロジェクトの目標設定と開始、九月末までに完成\n")
+    file.write(f"【十月までの目標】\n")
+    file.write("・PaizaのSランク達成\n")
+    file.write("・Javaの「Sランク獲得」問題を全部解く\n")
 
