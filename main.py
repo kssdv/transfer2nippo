@@ -45,6 +45,7 @@ with open(txt_path, "w", encoding="utf-8") as file:
     # 明日の目標
     file.write("【明日の学習目標】\n")
     file.write("・\n")
+    file.write("・\n")
     file.write("\n")
     
     # 月間目標
